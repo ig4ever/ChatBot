@@ -5,4 +5,5 @@
     <color name="colorAccent">#FF4081</color>
     <color name="colorItemKanan">#80CBC4</color>
     <color name="colorItemKiri">#CFD8DC</color>
+    <color name="white">#FFFFFF</color>
 </resources>

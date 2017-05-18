@@ -45,7 +45,7 @@
         android:layout_alignParentEnd="true"
         android:layout_below="@+id/text_view_pesan_item_sisi_kanan"
         android:text="Sab, 28 Jan 2017 13:41:30"
-        android:textColor="@android:color/darker_gray"
+        android:textColor="@android:color/white"
         android:layout_marginTop="8dp"
         android:paddingRight="10dp"
         />
