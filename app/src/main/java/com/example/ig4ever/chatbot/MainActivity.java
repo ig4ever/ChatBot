@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        getSupportActionBar().setTitle("Chatting");
+        getSupportActionBar().setTitle("Chattings");
 
         recyclerViewMain = (RecyclerView) findViewById(R.id.recycler_view_main);
         editTextIsiPesan = (EditText) findViewById(R.id.edit_text_isi_pesan);
