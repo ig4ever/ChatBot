@@ -34,6 +34,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        getSupportActionBar().setTitle("RPL 2");
+
         recyclerViewMain = (RecyclerView) findViewById(R.id.recycler_view_main);
         editTextIsiPesan = (EditText) findViewById(R.id.edit_text_isi_pesan);
         floatingActionButtonKirimPesan = (FloatingActionButton) findViewById(R.id.floating_action_button_kirim_pesan);
