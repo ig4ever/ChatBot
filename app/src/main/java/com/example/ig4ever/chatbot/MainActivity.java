@@ -2,6 +2,8 @@ package com.example.ig4ever.chatbot;
 
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.design.widget.TabLayout;
+import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
@@ -12,6 +14,9 @@ import android.widget.EditText;
 
 import com.example.ig4ever.chatbot.adapter.AdapterSms;
 import com.example.ig4ever.chatbot.model.DataSms;
+import com.example.ig4ever.chatbot.tabs_fragments.KeduaFragment;
+import com.example.ig4ever.chatbot.tabs_fragments.KetigaFragment;
+import com.example.ig4ever.chatbot.tabs_fragments.PertamaFragment;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -32,10 +37,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-
-        getSupportActionBar().setTitle("ChatBot");
-
+        setContentView(R.layout.view_pager);
+        
         recyclerViewMain = (RecyclerView) findViewById(R.id.recycler_view_main);
         editTextIsiPesan = (EditText) findViewById(R.id.edit_text_isi_pesan);
         floatingActionButtonKirimPesan = (FloatingActionButton) findViewById(R.id.floating_action_button_kirim_pesan);
@@ -81,4 +84,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             }
         }
     }
+
+
 }

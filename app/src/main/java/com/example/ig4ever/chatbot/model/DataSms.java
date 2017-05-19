@@ -6,6 +6,7 @@ package com.example.ig4ever.chatbot.model;
 
 public class DataSms {
 
+    private String nama;
     private String pesan;
     private String waktu;
 
@@ -24,4 +25,8 @@ public class DataSms {
     public void setWaktu(String waktu) {
         this.waktu = waktu;
     }
+
+    public String getNama() {   return nama;    }
+
+    public void setNama(String nama) {  this.nama = nama;   }
 }
